@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '8' # 如果你的项目使用其他版本，请修改
+          java-version: '17' # 如果你的项目使用其他版本，请修改
 
       - name: Build with Maven
         run: mvn clean package -DskipTests
